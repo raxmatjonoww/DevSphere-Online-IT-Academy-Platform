@@ -21,7 +21,9 @@ const Navbar = () => {
         <div className="navbar-links">
           {role ? (
             <>
-              <Link to="/dashboard" className="navbar-link">Admin</Link>
+              <Link to="/dashboard" className="navbar-link">
+                {role === "admin" ? "Админ" : "Пользователь"}
+              </Link>
               <button onClick={handleLogout} className="navbar-btn">Выйти</button>
             </>
           ) : (

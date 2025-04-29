@@ -6,7 +6,8 @@
   }
   
   body {
-    background-color: #ffffff;
+    height: 100vh;
+     background: linear-gradient(135deg, #001942, #ffffff);
     color: #1e1e1e;
   }
   
@@ -27,11 +28,11 @@
   .home-box {
     margin-top: 30px;
     padding: clamp(20px, 5vw, 50px);
-    border: 1px solid rgb(0, 13, 35);
-    border-left: 10px solid rgb(0, 13, 35);
-    border-right: 10px solid rgb(0, 13, 35);
+    border: 1px solid rgb(255, 255, 255);
+    border-left: 10px solid rgb(255, 255, 255);
     border-radius: 8px;
-    background-color: #f9fafb;
+    background: linear-gradient(135deg, #a4c7ff, #ffffff);
+
   }
   
   .home-box > h3 {
@@ -49,7 +50,7 @@
   .home-title {
     font-size: clamp(26px, 5vw, 35px);
     font-weight: bold;
-    color: rgb(0, 13, 35);
+    color: white;
   }
   
   .home-subtitle {
