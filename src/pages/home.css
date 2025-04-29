@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: white; */
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #1e1e1e;
+  }
+  
+  .home-container {
+    padding: 12vh 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .home-container > p {
+    margin-top: 20px;
+    color: rgb(30, 30, 30);
+    font-size: clamp(14px, 3.5vw, 20px);
+  }
+  
+  .home-box {
+    margin-top: 30px;
+    padding: clamp(20px, 5vw, 50px);
+    border: 1px solid rgb(0, 13, 35);
+    border-left: 10px solid rgb(0, 13, 35);
+    border-right: 10px solid rgb(0, 13, 35);
+    border-radius: 8px;
+    background-color: #f9fafb;
+  }
+  
+  .home-box > h3 {
+    margin-top: 20px;
+    font-size: clamp(20px, 4vw, 30px);
+    color: rgb(0, 13, 35);
+  }
+  
+  .home-box > p {
+    margin-top: 20px;
+    font-size: clamp(16px, 3.5vw, 20px);
+    color: rgb(50, 50, 50);
+  }
+  
+  .home-title {
+    font-size: clamp(26px, 5vw, 35px);
+    font-weight: bold;
+    color: rgb(0, 13, 35);
+  }
+  
+  .home-subtitle {
+    margin-top: 8px;
+    font-size: clamp(18px, 4vw, 24px);
+    color: rgb(80, 80, 80);
+  }
+  
+  .home-login-btn {
+    margin-top: 35px;
+    padding: clamp(10px, 2vw, 15px) clamp(20px, 5vw, 30px);
+    background-color: rgb(37, 106, 255);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: clamp(14px, 2vw, 16px);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .home-login-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
